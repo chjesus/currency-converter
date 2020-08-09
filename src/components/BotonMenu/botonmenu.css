@@ -1,0 +1,26 @@
+.wrapper__panel--btn {
+    padding: 1rem 0;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(63, 124, 172);
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.wrapper__panel--btn:hover {
+    background-color: rgba(63, 124, 172, 0.5);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.btn__link {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.3);
+    font-weight: 900;
+}
+
+.wrapper__panel--btn:hover .btn__link {
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}

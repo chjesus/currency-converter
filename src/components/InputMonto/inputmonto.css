@@ -1,0 +1,32 @@
+.form__money {
+    margin-top: .5rem;
+}
+
+.monto::-webkit-inner-spin-button,
+.monto::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.monto {
+    font-size: 20px;
+    font-weight: 900;
+    padding: .5rem .5rem;
+    margin-right: .5rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+::placeholder {
+    color: #3F7CAC;
+}
+
+.money {
+    font-size: 20px;
+    padding: .5rem;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    color: #3F7CAC;
+    font-weight: 900;
+}

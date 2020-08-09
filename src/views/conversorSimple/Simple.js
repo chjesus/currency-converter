@@ -49,7 +49,7 @@ class Simple extends Component {
 
     if (!cacheList) {
       const response = await fetch(
-        "http://free.currconv.com/api/v7/currencies?apiKey=a1e899d15f766cc09eea"
+        "https://free.currconv.com/api/v7/currencies?apiKey=a1e899d15f766cc09eea"
       );
 
       data = await response.json();
@@ -97,7 +97,7 @@ class Simple extends Component {
     const to = this.state.toValue;
 
     const response = await fetch(
-      `http://free.currconv.com/api/v7/convert?q=${from}_${to},${to}_${from}&compact=ultra&apiKey=a1e899d15f766cc09eea`
+      `https://free.currconv.com/api/v7/convert?q=${from}_${to},${to}_${from}&compact=ultra&apiKey=a1e899d15f766cc09eea`
     );
 
     const data = await response.json();
